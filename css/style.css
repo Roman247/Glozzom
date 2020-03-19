@@ -1,0 +1,158 @@
+.navbar {
+  background: #000000; }
+  .navbar .navbar-brand {
+    color: #fff; }
+  .navbar .nav-item {
+    padding-left: 1rem; }
+    .navbar .nav-item .nav-link {
+      text-transform: uppercase; }
+
+.carousel-item {
+  height: 450px; }
+
+#home-icon .fa {
+  font-size: 50px; }
+
+#started-section {
+  background: url("../img/bg1.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 250px;
+  position: relative; }
+  #started-section .dark-overlay {
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%; }
+
+#lightbox {
+  background: url("../img/people.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 300px;
+  position: relative; }
+  #lightbox .dark-overlay {
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+  #lightbox .fa {
+    font-size: 50px; }
+
+#photo-gallery img {
+  min-height: 250px; }
+
+#footer {
+  background: #000;
+  color: #Fff; }
+
+#about-header {
+  background: url("../img/image1.jpeg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  min-height: 200px; }
+  #about-header .dark-overlay {
+    background: rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    min-height: 200px; }
+
+#about-info .img-cusomize {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%; }
+
+#icon-boxes .fa {
+  font-size: 50px;
+  margin-bottom: 1rem; }
+
+#testimonial .slick-prev::before,
+#testimonial .slick-next::before {
+  color: #000; }
+
+#service-header {
+  background: url("../img/ser.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  min-height: 200px; }
+  #service-header .service-dark-overlay {
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    min-height: 200px; }
+
+#blog-header {
+  background: url("../img/blog.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  min-height: 200px; }
+  #blog-header .blog-dark-overlay {
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    min-height: 200px; }
+
+#blog .card img {
+  height: 200px;
+  width: 350px; }
+
+#contact-header {
+  background: url("../img/contact.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  min-height: 200px; }
+  #contact-header .contact-dark-overlay {
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    min-height: 200px; }
+
+@media (max-width: 991px) {
+  #photo-gallery img {
+    min-height: 180px; } }
+
+@media (max-width: 767px) {
+  .nav-link {
+    padding-left: 0rem !important; }
+  #started-section {
+    min-height: 300px; } }
+
+@media (max-width: 480px) {
+  .carousel-caption h2 {
+    font-size: 2rem; }
+  .carousel-caption a {
+    margin-bottom: 100px; } }
+
+#started-section {
+  min-height: 400px; }
+
+@media (max-width: 575px) {
+  .carousel-caption a {
+    margin-bottom: 120px; }
+  #photo-gallery .test {
+    margin-bottom: 5px; }
+  #photo-gallery img:last-child {
+    margin-bottom: 0; } }
